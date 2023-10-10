@@ -1,8 +1,8 @@
 function draw() {
     const container = document.getElementById('tutorial')
     const canvas = document.createElement('canvas')
-    canvas.width = 600
-    canvas.height = 600
+    canvas.width = 300
+    canvas.height = 300
     const ctx = canvas.getContext('2d')
 
     if (!container || !ctx) return
