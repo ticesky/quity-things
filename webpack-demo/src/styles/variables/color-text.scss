@@ -1,0 +1,31 @@
+/**
+ * @file 文字颜色 
+ * 文字对应关系比较简单, 浅色深色一一对应
+ */
+
+@use './base/mixins' as *;
+@use './base/neutral_colors' as colors;
+
+@include light-theme {
+    --eb-color-text-0d-e5: #{colors.$neutral_0d}; // 标题、默认
+    --eb-color-text-33-e5: #{colors.$neutral_33}; // 思考过程
+    --eb-color-text-4d-b2: #{colors.$neutral_4d}; // 默认
+    --eb-color-text-66-99: #{colors.$neutral_66}; // 辅助文字、思考链
+    --eb-color-text-66-b2: #{colors.$neutral_66}; // 引用字体
+    --eb-color-text-99-66: #{colors.$neutral_99}; // 说明、备注
+    --eb-color-text-b2-4d: #{colors.$neutral_b2}; // 禁用
+    --eb-color-text-b2-66: #{colors.$neutral_b2}; // 禁用
+    --eb-color-text-ff-0d: #{colors.$neutral_ff}; // 按钮文字
+}
+
+@include dark-theme {
+    --eb-color-text-0d-e5: #{colors.$neutral_e5}; // 标题、默认
+    --eb-color-text-33-e5: #{colors.$neutral_e5}; // 思考过程
+    --eb-color-text-4d-b2: #{colors.$neutral_b2}; // 默认
+    --eb-color-text-66-99: #{colors.$neutral_99}; // 辅助文字、思考链
+    --eb-color-text-66-b2: #{colors.$neutral_b2}; // 引用字体
+    --eb-color-text-99-66: #{colors.$neutral_66}; // 说明、备注
+    --eb-color-text-b2-4d: #{colors.$neutral_4d}; // 禁用
+    --eb-color-text-b2-66: #{colors.$neutral_66}; // 禁用
+    --eb-color-text-ff-0d: #{colors.$neutral_0d}; // 按钮文字
+}

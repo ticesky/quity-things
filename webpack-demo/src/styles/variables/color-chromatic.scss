@@ -1,0 +1,21 @@
+/**
+ * @file 彩色的, 非中性色
+ */
+
+@use './base/mixins' as *;
+
+@include light-theme {
+    --eb-color-info: #4971f5;
+    --eb-color-info-hover: #4266dc;
+    --eb-color-success: #0bbb62;
+    --eb-color-warning: #fa7632;
+    --eb-color-error: #e83441;
+}
+
+@include dark-theme {
+    --eb-color-info: #5278f5;
+    --eb-color-info-hover: #5f84ff;
+    --eb-color-success: #15a15b;
+    --eb-color-warning: #e9580d;
+    --eb-color-error: #ec2e3d;
+}

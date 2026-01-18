@@ -1,0 +1,56 @@
+/**
+ * @file 输入框特殊的颜色
+ */
+
+@use './base/mixins' as *;
+@use './base/neutral_colors' as colors;
+
+@include light-theme {
+    --eb-input-color-bg-overlay: rgba(
+        255,
+        255,
+        255,
+        0.3
+    ); // 拖拽上传的背景蒙版颜色(透明)
+    --eb-input-color-bg-overlay-elevated: rgba(255, 255, 255, 0.5);
+    --eb-input-color-border-ff-33: #{colors.$neutral_ff};
+    --eb-input-color-border-e5-2e: #{colors.$neutral_e5};
+    --eb-input-color-focus-border-80-3d: #{colors.$neutral_80};
+    --eb-input-color-text-b2-66: #{colors.$neutral_b2};
+    --eb-input-color-text-ff-e5: #{colors.$neutral_ff};
+    --eb-input-color-slot-bg: #edf1fe; // 插槽底色
+    --eb-input-color-slot-placeholder: #9bb1f9; // 插槽默认文本颜色
+    --eb-input-color-slot-text: #4971f5; // 插槽输入文本颜色
+    --eb-input-color-highlight-text: #def7ee; // ai编辑打字机颜色
+    --eb-input-color-bg-b2-66: #{colors.$neutral_b2};
+    --eb-input-color-bg-eb-59: #{colors.$neutral_eb};
+    --eb-input-color-text-b2-99: #{colors.$neutral_b2};
+    --eb-input-color-border-d9-42: #{colors.$neutral_d9};
+    --eb-input-color-border-d9-2e: #{colors.$neutral_d9};
+    --eb-input-color-border-b2-2e: #{colors.$neutral_b2};
+}
+
+@include dark-theme {
+    --eb-input-color-bg-overlay: rgba(
+        0,
+        0,
+        0,
+        0.3
+    ); // 拖拽上传的背景蒙版颜色(透明)
+    --eb-input-color-bg-overlay-elevated: rgba(0, 0, 0, 0.5);
+    --eb-input-color-border-ff-33: #{colors.$neutral_33};
+    --eb-input-color-border-e5-2e: #{colors.$neutral_2e};
+    --eb-input-color-focus-border-80-3d: #{colors.$neutral_3d};
+    --eb-input-color-text-b2-66: #{colors.$neutral_66};
+    --eb-input-color-text-ff-e5: #{colors.$neutral_e5};
+    --eb-input-color-slot-bg: #2d313d; // 插槽底色
+    --eb-input-color-slot-placeholder: #4967c7; // 插槽默认文本颜色
+    --eb-input-color-slot-text: #5278f5; // 插槽输入文本颜色
+    --eb-input-color-highlight-text: #2d7f56; // ai编辑打字机颜色
+    --eb-input-color-bg-b2-66: #{colors.$neutral_66};
+    --eb-input-color-bg-eb-59: #{colors.$neutral_59};
+    --eb-input-color-text-b2-99: #{colors.$neutral_99};
+    --eb-input-color-border-d9-42: #{colors.$neutral_42};
+    --eb-input-color-border-d9-2e: #{colors.$neutral_2e};
+    --eb-input-color-border-b2-2e: #{colors.$neutral_2e};
+}

@@ -1,0 +1,24 @@
+/**
+ * @file 滚动条颜色
+ */
+
+@use './base/mixins' as *;
+@use './base/neutral_colors' as colors;
+
+@include light-theme {
+    --eb-color-scrollbar-e5-38: #{colors.$neutral_e5};
+    --eb-color-scrollbar-e5-42: #{colors.$neutral_e5};
+    --eb-color-scrollbar-d9-38: #{colors.$neutral_d9};
+    --eb-color-scrollbar-cc-42: #{colors.$neutral_cc};
+    --eb-color-scrollbar-d9-42: #{colors.$neutral_d9};
+    --eb-color-scrollbar-d9-4d: #{colors.$neutral_d9};
+}
+
+@include dark-theme {
+    --eb-color-scrollbar-e5-38: #{colors.$neutral_38};
+    --eb-color-scrollbar-e5-42: #{colors.$neutral_42};
+    --eb-color-scrollbar-d9-38: #{colors.$neutral_38};
+    --eb-color-scrollbar-cc-42: #{colors.$neutral_42};
+    --eb-color-scrollbar-d9-42: #{colors.$neutral_42};
+    --eb-color-scrollbar-d9-4d: #{colors.$neutral_4d};
+}

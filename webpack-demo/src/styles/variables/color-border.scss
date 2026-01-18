@@ -1,0 +1,48 @@
+/**
+ * @file 描边颜色变量
+ */
+
+@use './base/mixins' as *;
+@use './base/neutral_colors' as colors;
+
+@include light-theme {
+    --eb-color-border-80-73: #{colors.$neutral_80}; // 泛会话区描边、弹窗描边
+    --eb-color-border-b2-42: #{colors.$neutral_b2}; // 泛会话区描边
+    --eb-color-border-b2-59: #{colors.$neutral_b2}; // 泛会话区描边
+    --eb-color-border-d9-38: #{colors.$neutral_d9}; // 泛会话区描边
+    --eb-color-border-d9-3d: #{colors.$neutral_d9}; // 侧边栏描边
+    --eb-color-border-d9-59: #{colors.$neutral_d9}; // 泛会话区描边、弹窗描边
+    --eb-color-border-e5-33: #{colors.$neutral_e5}; // 泛会话区描边、侧边栏描边
+    --eb-color-border-e5-38: #{colors.$neutral_e5}; // 泛会话区描边、弹窗描边
+    --eb-color-border-e5-3d: #{colors.$neutral_e5}; // 泛会话区描边、侧边栏描边、弹窗描边
+    --eb-color-border-e5-42: #{colors.$neutral_e5}; // 泛会话区描边
+    --eb-color-border-eb-2e: #{colors.$neutral_eb}; // 泛会话区描边
+    --eb-color-border-eb-38: #{colors.$neutral_eb}; // 泛会话区描边
+    --eb-color-border-eb-59: #{colors.$neutral_eb}; // 泛会话区描边
+    --eb-color-border-f0-2e: #{colors.$neutral_f0}; // 泛会话区描边
+    --eb-color-border-f0-33: #{colors.$neutral_f0}; // 泛会话区描边
+    --eb-color-border-f0-38: #{colors.$neutral_f0}; // 泛会话区描边
+    --eb-color-border-f0-3d: #{colors.$neutral_f0}; // 泛会话区描边
+    --eb-color-border-f0-42: #{colors.$neutral_f0}; // 泛会话区描边
+}
+
+@include dark-theme {
+    --eb-color-border-80-73: #{colors.$neutral_73}; // 泛会话区描边、弹窗描边
+    --eb-color-border-b2-42: #{colors.$neutral_42}; // 泛会话区描边
+    --eb-color-border-b2-59: #{colors.$neutral_59}; // 泛会话区描边
+    --eb-color-border-d9-38: #{colors.$neutral_38}; // 泛会话区描边
+    --eb-color-border-d9-3d: #{colors.$neutral_3d}; // 侧边栏描边
+    --eb-color-border-d9-59: #{colors.$neutral_59}; // 泛会话区描边、弹窗描边
+    --eb-color-border-e5-33: #{colors.$neutral_33}; // 泛会话区描边、侧边栏描边
+    --eb-color-border-e5-38: #{colors.$neutral_38}; // 泛会话区描边、弹窗描边
+    --eb-color-border-e5-3d: #{colors.$neutral_3d}; // 泛会话区描边、侧边栏描边、弹窗描边
+    --eb-color-border-eb-2e: #{colors.$neutral_2e}; // 泛会话区描边
+    --eb-color-border-e5-42: #{colors.$neutral_42}; // 泛会话区描边
+    --eb-color-border-eb-38: #{colors.$neutral_38}; // 泛会话区描边
+    --eb-color-border-eb-59: #{colors.$neutral_59}; // 泛会话区描边
+    --eb-color-border-f0-2e: #{colors.$neutral_2e}; // 泛会话区描边
+    --eb-color-border-f0-33: #{colors.$neutral_33}; // 泛会话区描边
+    --eb-color-border-f0-38: #{colors.$neutral_38}; // 泛会话区描边
+    --eb-color-border-f0-3d: #{colors.$neutral_3d}; // 泛会话区描边
+    --eb-color-border-f0-42: #{colors.$neutral_42}; // 泛会话区描边
+}

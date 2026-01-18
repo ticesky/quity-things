@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // TS编译的目标语法，babel会再降级
+    "module": "ESNext", // 模块化规范
+    "jsx": "react-jsx", // 支持React17+的自动JSX转换，无需import React
+    "strict": true, // 开启严格类型校验（TS核心）
+    "esModuleInterop": true, // 兼容CommonJS和ES模块
+    "skipLibCheck": true, // 跳过第三方库的类型校验，提升速度
+    "forceConsistentCasingInFileNames": true, // 强制文件名大小写一致
+    "resolveJsonModule": true, // 支持导入json文件
+    "moduleResolution": "node", // 按node规则解析模块
+    "isolatedModules": true, // 配合babel，禁止TS编译未被导入的文件
+    "baseUrl": "./",
+    // "paths": { "@src/*": ["./src/*"], }, // 配置别名，可选
+    "lib": ["DOM", "DOM.Iterable", "ESNext"] // 依赖的库
+  },
+  "include": ["src/**/*"], // 校验src下所有TS/TSX文件
+  "exclude": ["node_modules", "dist", "webpack"] // 排除无需校验的目录
+}

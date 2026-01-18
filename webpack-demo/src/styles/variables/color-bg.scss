@@ -1,0 +1,76 @@
+/**
+ * @file 背景颜色
+ */
+
+@use './base/mixins' as *;
+@use './base/neutral_colors' as colors;
+
+@include light-theme {
+    --eb-color-bg-0d-eb: #{colors.$neutral_0d}; // 泛会话区背景、弹窗背景
+    --eb-color-bg-0d-29: #{colors.$neutral_0d}; // 泛会话区背景
+    --eb-color-bg-1a-eb: #{colors.$neutral_1a}; // 泛会话区背景
+    --eb-color-bg-29-cc: #{colors.$neutral_29}; // 按钮悬停或者激活背景
+    --eb-color-bg-4d-b2: #{colors.$neutral_4d}; // 引用关闭按钮
+    --eb-color-bg-cc-4d: #{colors.$neutral_cc}; // 开关按钮底色
+    --eb-color-bg-e5-33: #{colors.$neutral_e5}; // 泛会话区背景（hover）
+    --eb-color-bg-eb-33: #{colors.$neutral_eb}; // 侧边栏背景(侧边栏的悬停, 悬停和选中是两个颜色)
+    --eb-color-bg-eb-38: #{colors.$neutral_eb}; // 侧边栏背景
+    --eb-color-bg-eb-42: #{colors.$neutral_eb}; // 欢迎弹窗按钮组背景
+    --eb-color-bg-f0-24: #{colors.$neutral_f0}; // 泛会话区背景（多轮激发）
+    --eb-color-bg-f0-29: #{colors.$neutral_f0}; // 泛会话区背景
+    --eb-color-bg-f0-33: #{colors.$neutral_f0}; // 泛会话区背景（悬停场景为主）
+    --eb-color-bg-f0-38: #{colors.$neutral_f0}; // 泛会话区背景（小卡选中）
+    --eb-color-bg-f0-42: #{colors.$neutral_f0}; // 收藏卡片icon背景
+    --eb-color-bg-f5-1f: #{colors.$neutral_f5}; // 泛会话区背景
+    --eb-color-bg-f5-24: #{colors.$neutral_f5}; // 侧边栏背景
+    --eb-color-bg-f5-29: #{colors.$neutral_f5}; // 泛会话区背景
+    --eb-color-bg-f5-33: #{colors.$neutral_f5}; // 引用背景
+    --eb-color-bg-f5-38: #{colors.$neutral_f5}; // 弹窗背景
+    --eb-color-bg-f5-42: #{colors.$neutral_f5}; // 泛会话区背景、侧边栏背景、弹窗背景
+    --eb-color-bg-fa-24: #{colors.$neutral_fa}; // 收藏卡片背景
+    --eb-color-bg-fa-29: #{colors.$neutral_fa}; // 泛会话区背景、侧边栏背景、弹窗背景
+    --eb-color-bg-fa-33: #{colors.$neutral_fa}; // 泛会话区背景、侧边栏背景、弹窗背景
+    --eb-color-bg-ff-1f: #{colors.$neutral_ff}; // 泛会话区背景
+    --eb-color-bg-ff-24: #{colors.$neutral_ff}; // echart图表背景色
+    --eb-color-bg-ff-29: #{colors.$neutral_ff}; // 泛会话区背景、弹窗背景
+    --eb-color-bg-ff-33: #{colors.$neutral_ff}; // 侧边栏背景、弹窗背景
+    --eb-color-bg-ff-38: #{colors.$neutral_ff}; // 泛会话区背景
+    --eb-color-bg-ff-42: #{colors.$neutral_ff}; // 泛会话区背景
+    --eb-color-bg-ff-4d: #{colors.$neutral_ff}; // 泛会话区背景
+    --eb-color-bg-ff-2e: #{colors.$neutral_ff}; // 视频卡片背景
+}
+
+@include dark-theme {
+    --eb-color-bg-0d-eb: #{colors.$neutral_eb}; // 泛会话区背景、弹窗背景
+    --eb-color-bg-0d-29: #{colors.$neutral_29}; // 泛会话区背景
+    --eb-color-bg-1a-eb: #{colors.$neutral_eb}; // 泛会话区背景
+    --eb-color-bg-29-cc: #{colors.$neutral_cc}; // 按钮悬停或者激活背景
+    --eb-color-bg-4d-b2: #{colors.$neutral_b2}; // 引用关闭按钮
+    --eb-color-bg-cc-4d: #{colors.$neutral_4d}; // 开关按钮底色
+    --eb-color-bg-e5-33: #{colors.$neutral_33}; // 泛会话区背景（hover）
+    --eb-color-bg-eb-33: #{colors.$neutral_33}; // 侧边栏背景 (侧边栏的悬停, 悬停和选中是两个颜色)
+    --eb-color-bg-eb-38: #{colors.$neutral_38}; // 侧边栏背景
+    --eb-color-bg-eb-42: #{colors.$neutral_42}; // 欢迎弹窗按钮组背景
+    --eb-color-bg-f0-24: #{colors.$neutral_24}; // 泛会话区背景（多轮激发）
+    --eb-color-bg-f0-29: #{colors.$neutral_29}; // 泛会话区背景
+    --eb-color-bg-f0-33: #{colors.$neutral_33}; // 泛会话区背景（悬停场景为主）
+    --eb-color-bg-f0-38: #{colors.$neutral_38}; // 泛会话区背景（小卡选中）
+    --eb-color-bg-f0-42: #{colors.$neutral_42}; // 收藏卡片icon背景
+    --eb-color-bg-f5-1f: #{colors.$neutral_1f}; // 泛会话区背景
+    --eb-color-bg-f5-24: #{colors.$neutral_24}; // 侧边栏背景
+    --eb-color-bg-f5-29: #{colors.$neutral_29}; // 泛会话区背景
+    --eb-color-bg-f5-33: #{colors.$neutral_33}; // 引用背景
+    --eb-color-bg-f5-38: #{colors.$neutral_38}; // 弹窗背景
+    --eb-color-bg-f5-42: #{colors.$neutral_42}; // 泛会话区背景、侧边栏背景、弹窗背景
+    --eb-color-bg-fa-24: #{colors.$neutral_24}; // 收藏卡片背景
+    --eb-color-bg-fa-29: #{colors.$neutral_29}; // 泛会话区背景、侧边栏背景、弹窗背景
+    --eb-color-bg-fa-33: #{colors.$neutral_33}; // 泛会话区背景、侧边栏背景、弹窗背景
+    --eb-color-bg-ff-1f: #{colors.$neutral_1f}; // 泛会话区背景
+    --eb-color-bg-ff-24: #{colors.$neutral_24}; // echart图表背景色
+    --eb-color-bg-ff-29: #{colors.$neutral_29}; // 泛会话区背景、弹窗背景
+    --eb-color-bg-ff-33: #{colors.$neutral_33}; // 侧边栏背景、弹窗背景
+    --eb-color-bg-ff-38: #{colors.$neutral_38}; // 泛会话区背景
+    --eb-color-bg-ff-42: #{colors.$neutral_42}; // 泛会话区背景
+    --eb-color-bg-ff-4d: #{colors.$neutral_4d}; // 泛会话区背景
+    --eb-color-bg-ff-2e: #{colors.$neutral_2e}; // 视频卡片背景
+}

@@ -1,0 +1,48 @@
+{
+    "name": "文心一言",
+    "short_name": "文心一言",
+    "description": "文心一言web版",
+    "orientation": "portrait",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "theme_color": "#fff",
+    "background_color": "#fff",
+    "icons": [
+        {
+            "src": "https://eb-static.cdn.bcebos.com/static/logo/logo_512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "https://eb-static.cdn.bcebos.com/static/logo/logo_384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "https://eb-static.cdn.bcebos.com/static/logo/logo_256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "https://eb-static.cdn.bcebos.com/static/logo/logo_192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://eb-static.cdn.bcebos.com/static/logo/logo_180x180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "https://eb-static.cdn.bcebos.com/static/logo/logo_128x128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "https://eb-static.cdn.bcebos.com/static/logo/logo_96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ]
+}

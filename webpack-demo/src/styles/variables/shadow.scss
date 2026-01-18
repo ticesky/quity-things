@@ -1,0 +1,23 @@
+/**
+* 遵从设计体系
+* box-shadow有且只有这四种，如果超出这四种，说明设计标错了，请联系 设计@xuzhiheng@baidu.com，或者前端linyangyang@baidu.com
+* 走查也是如此，不接受范围之外的阴影，甩给UI这个文档：https://ku.baidu-int.com/knowledge/HFVrC7hq1Q/IBJkjEp1-x/X-bsURKmVt/HOc8kgQDvpgoe1#anchor-eb2aba80-5733-11f0-bd8f-fd15232e989d
+* UI: https://eb118-file.cdn.bcebos.com/aisuda/2025-07/Gz10Zvr1hSL3hxvO5CqTo0.png
+* UI: https://eb118-file.cdn.bcebos.com/aisuda/2025-07/KdkH2JybLpU6PKk1W6EUde.png
+*/
+
+@use './base/mixins' as *;
+
+@include light-theme {
+    --eb-shadow-input: 0 2px 12px rgba(0, 0, 0, 0.1);
+    --eb-shadow-overlay: 0 3px 10px rgba(0, 0, 0, 0.1);
+    --eb-shadow-drawer: 6px 0 16px rgba(0, 0, 0, 0.16);
+    --eb-shadow-drawer-reverse: -6px 0 16px rgba(0, 0, 0, 0.16);
+}
+
+@include dark-theme {
+    --eb-shadow-input: 0 2px 10px rgba(0, 0, 0, 0.02);
+    --eb-shadow-overlay: 0 2px 10px rgba(0, 0, 0, 0.2);
+    --eb-shadow-drawer: 5px 0 20px rgba(0, 0, 0, 0.2);
+    --eb-shadow-drawer-reverse: -5px 0 20px rgba(0, 0, 0, 0.2);
+}

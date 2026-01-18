@@ -1,0 +1,8 @@
+/**
+ * @file 用于跨文件控制class变量的情况，使用动态变量
+ */
+
+:root {
+    // 显隐，默认隐藏(将原来的display改为opacity控制，避免高度变化布局抖动)
+    --eb-opacity-dom: 0;
+}

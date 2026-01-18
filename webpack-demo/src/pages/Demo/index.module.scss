@@ -1,0 +1,19 @@
+.bg {
+    background-color: var(--eb-color-bg-0d-eb);
+    color: var(--eb-color-text-4d-b2);
+
+    .btns {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+
+        > button {
+            background-color: var(--eb-color-bg-4d-b2);
+            border: 1px solid var(--eb-color-border-d9-59);
+            border-radius: 6px;
+            color: var(--eb-color-text-ff-0d);
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}

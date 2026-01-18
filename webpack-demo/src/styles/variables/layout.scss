@@ -1,0 +1,30 @@
+:root {
+    --eb-100vh: var(--vh, 100vh);
+    --eb-content-max-width: 780px;
+    --eb-single-file-content-max-width: 814px;
+    --eb-single-image-content-max-width: 740px;
+    --eb-single-aiEdit-content-max-width: 1040px;
+    --eb-channel-showcase-content-max-width: 1132px;
+    --eb-content-min-width-pc: 400px;
+    --eb-question-content-max-width: 540px;
+    /* UI: https://eb118-file.cdn.bcebos.com/aisuda/2025-07/i6DNomQEB54VjH93xA8Fas.png */
+    --eb-content-padding: 24px;
+    --eb-collection-padding: 16px;
+    --eb-content-top-height: 56px;
+    // 有侧边栏时的页面顶部padding, 防止绝对定位的收起侧边栏挡住页面内容
+    --eb-with-sidebar-page-padding-top: 56px;
+    // 左侧边栏 定宽
+    --eb-sidebar-width: 260px;
+    // 检索面板 定宽
+    --eb-sources-viewer-width: 330px;
+    --eb-share-content-max-width: 828px; //添加了左右margin
+    --eb-share-content-landing-page-max-width: 780px; //添加了左右margin
+
+    --eb-top-fixed-area-z-index: 11;
+    // 左边文件双屏的zIndex
+    --eb-file-viewer-z-index: 12;
+    // 右边溯源双屏的zIndex
+    --eb-source-viewer-z-index: 12;
+    // 启动页footer的zIndex
+    --eb-home-footer-z-index: 11;
+}

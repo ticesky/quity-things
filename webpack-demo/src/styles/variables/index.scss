@@ -1,0 +1,15 @@
+/**
+ * @file 科技感主题用到的变量
+ * @use 建议配合vscode插件使用 [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss
+ */
+
+@use './color-bg.scss';
+@use './color-border.scss';
+@use './color-chromatic.scss';
+@use './color-input.scss';
+@use './color-scrollbar.scss';
+@use './color-text.scss';
+
+@use './layout.scss';
+@use './shadow.scss';
+@use './data.scss';
